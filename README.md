@@ -23,7 +23,7 @@ Time to run each notebook:- A lot.
 Steps on How to install and run: -
   1. Download and unzip dataset from the google link. The size of the dataset is 88 gb combined and we could not upload it to Github. 
   2. The structure of the directory should be:-
-
+'''
 project
   CNN_synth_testset
     biggan
@@ -36,3 +36,4 @@ project
     bird
     ...
   Notebooks
+'''
