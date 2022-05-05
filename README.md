@@ -1,6 +1,9 @@
 # DeepLearning523---Synthetic-Image-Detector-Assestment
 Deep Learning Boston University Final Project - Synthetic GAN images detector re-implementation and assestment. 
 
+Report Google Doc:- https://docs.google.com/document/d/1lbNA2VCtUeTrxGibGD4hsfwPq4agTxhlyJ1wTPBjESU/edit
+Presentation:- https://drive.google.com/file/d/1NM08V36mxp8RZQP6gWl0uj_v9ypEp2Zp/view?usp=sharing
+
 [Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)
 
 [Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
