@@ -16,51 +16,53 @@ Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bq
 [Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
 
 Directory should like this:-
-.
-|-- CNN_synth_testset
-|   |-- biggan
-|   |-- crn
-|   |-- cyclegan
-|   |-- deepfake
-|   |-- gaugan
-|   |-- imle
-|   |-- progan
-|   |-- san
-|   |-- seeingdark
-|   |-- stargan
-|   |-- stylegan
-|   |-- stylegan2
-|   `-- whichfaceisreal
-|-- M-Gb
-|-- SRNet
-|-- Wang_2020_Files
-|-- Xception
-|-- ourOwnGan
-|-- ourOwnGan_Copy
-|-- patchForensic
-|-- patchForensic_nzotalis
-|-- progan_train
-|   |-- airplane
-|   |-- bicycle
-|   |-- bird
-|   |-- boat
-|   |-- bottle
-|   |-- bus
-|   |-- car
-|   |-- cat
-|   |-- chair
-|   |-- cow
-|   |-- diningtable
-|   |-- dog
-|   |-- horse
-|   |-- motorbike
-|   |-- person
-|   |-- pottedplant
-|   |-- sheep
-|   |-- sofa
-|   |-- train
-|   `-- tvmonitor
-`-- spec
+```
+.  
+|-- CNN_synth_testset  
+|   |-- biggan  
+|   |-- crn  
+|   |-- cyclegan  
+|   |-- deepfake  
+|   |-- gaugan  
+|   |-- imle  
+|   |-- progan  
+|   |-- san  
+|   |-- seeingdark  
+|   |-- stargan  
+|   |-- stylegan  
+|   |-- stylegan2  
+|   `-- whichfaceisreal  
+|-- M-Gb  
+|-- SRNet  
+|-- Wang_2020_Files  
+|-- Xception  
+|-- ourOwnGan  
+|-- ourOwnGan_Copy  
+|-- patchForensic  
+|-- patchForensic_nzotalis  
+|-- progan_train  
+|   |-- airplane  
+|   |-- bicycle  
+|   |-- bird  
+|   |-- boat  
+|   |-- bottle  
+|   |-- bus  
+|   |-- car  
+|   |-- cat  
+|   |-- chair  
+|   |-- cow  
+|   |-- diningtable  
+|   |-- dog  
+|   |-- horse  
+|   |-- motorbike  
+|   |-- person  
+|   |-- pottedplant  
+|   |-- sheep  
+|   |-- sofa  
+|   |-- train  
+|   `-- tvmonitor  
+`-- spec  
+```
 
 ## Reference Papers
 
