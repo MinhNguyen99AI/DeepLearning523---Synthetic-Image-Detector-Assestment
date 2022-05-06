@@ -17,51 +17,118 @@ Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bq
 
 Directory should like this:-
 ```
-.  
-|-- CNN_synth_testset  
-|   |-- biggan  
-|   |-- crn  
-|   |-- cyclegan  
-|   |-- deepfake  
-|   |-- gaugan  
-|   |-- imle  
-|   |-- progan  
-|   |-- san  
-|   |-- seeingdark  
-|   |-- stargan  
-|   |-- stylegan  
-|   |-- stylegan2  
-|   `-- whichfaceisreal  
-|-- M-Gb  
-|-- SRNet  
-|-- Wang_2020_Files  
-|-- Xception  
-|-- ourOwnGan  
-|-- ourOwnGan_Copy  
-|-- patchForensic  
-|-- patchForensic_nzotalis  
-|-- progan_train  
-|   |-- airplane  
-|   |-- bicycle  
-|   |-- bird  
-|   |-- boat  
-|   |-- bottle  
-|   |-- bus  
-|   |-- car  
-|   |-- cat  
-|   |-- chair  
-|   |-- cow  
-|   |-- diningtable  
-|   |-- dog  
-|   |-- horse  
-|   |-- motorbike  
-|   |-- person  
-|   |-- pottedplant  
-|   |-- sheep  
-|   |-- sofa  
-|   |-- train  
-|   `-- tvmonitor  
-`-- spec  
+.
+|-- CNN_synth_testset
+|   |-- biggan
+|   |-- crn
+|   |-- cyclegan
+|   |-- deepfake
+|   |-- gaugan
+|   |-- imle
+|   |-- progan
+|   |-- san
+|   |-- seeingdark
+|   |-- stargan
+|   |-- stylegan
+|   |-- stylegan2
+|   `-- whichfaceisreal
+|-- Co_Net_Main.ipynb
+|-- Dataset_Creation_Path_to_Label.ipynb
+|-- GPU_Check.ipynb
+|-- M-Gb
+|   |-- model9.pt
+|   |-- paranoid_save.pt
+|   |-- test_accs.txt
+|   |-- test_loader.pt
+|   |-- train_loader.pt
+|   `-- valid_loader.pt
+|-- M-Gb.ipynb
+|-- PatchForensic.ipynb
+|-- PathForensic_nzotalis.ipynb
+|-- SRNet
+|   |-- SRNet.ipynb
+|   |-- SRNet.pt
+|   |-- SRNet.txt
+|   |-- SRNet_line.svg
+|   |-- SRNet_training_vis.txt
+|   `-- SRNet_valid_vis.txt
+|-- Test_Dataset_Labels.csv
+|-- Train_Dataset_Labels.csv
+|-- Unzipping.ipynb
+|-- Wang_2020.ipynb
+|-- Wang_2020_Files
+|   |-- co_net_model_trained.pt
+|   `-- wang_2020_model_trained.pt
+|-- Xception
+|   |-- Xception.ipynb
+|   |-- Xception.pt
+|   |-- Xception.txt
+|   |-- Xception_line.svg
+|   |-- Xception_mis.pdf
+|   |-- Xception_training_vis.txt
+|   `-- Xception_valid_vis.txt
+|-- fake.png
+|-- fake_1.png
+|-- fake_2.png
+|-- fake_3.png
+|-- fake_4.png
+|-- fake_5.png
+|-- ourOwnGan
+|-- ourOwnGan-Copy.ipynb
+|-- ourOwnGan-Copy1.ipynb
+|-- ourOwnGan.ipynb
+|-- ourOwnGan_Copy
+|   |-- test_loader.pt
+|   |-- train_loader.pt
+|   `-- valid_loader.pt
+|-- patchForensic
+|   |-- test_loader.pt
+|   |-- train_loader.pt
+|   `-- valid_loader.pt
+|-- patchForensic_nzotalis
+|   |-- final_save.pt
+|   |-- model0.pt
+|   |-- model1.pt
+|   |-- test_accs.txt
+|   |-- test_loader.pt
+|   |-- train_loader.pt
+|   `-- valid_loader.pt
+|-- progan_train
+|   |-- airplane
+|   |-- bicycle
+|   |-- bird
+|   |-- boat
+|   |-- bottle
+|   |-- bus
+|   |-- car
+|   |-- cat
+|   |-- chair
+|   |-- cow
+|   |-- diningtable
+|   |-- dog
+|   |-- horse
+|   |-- motorbike
+|   |-- person
+|   |-- pottedplant
+|   |-- sheep
+|   |-- sofa
+|   |-- train
+|   `-- tvmonitor
+|-- real.png
+|-- real_1.png
+|-- real_2.png
+|-- real_3.png
+|-- real_4.png
+|-- real_5.png
+|-- spec
+|   |-- paranoid_save.pt
+|   |-- test_accs.txt
+|   |-- test_loader.pt
+|   |-- train_loader.pt
+|   `-- valid_loader.pt
+|-- spec.ipynb
+|-- test.ipynb
+`-- test.txt
 ```
 
 ## Reference Papers
