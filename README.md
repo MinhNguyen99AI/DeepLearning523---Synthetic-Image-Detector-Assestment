@@ -1,7 +1,5 @@
-# CS 523: Deep Learning (Spring 22)
-## Methods to Detect GAN-Generated Images
----Synthetic-Image-Detector-Assestment
-Deep Learning Boston University Final Project - Synthetic GAN images detector re-implementation and assestment. 
+# CS 523: Deep Learning Project (Spring 22)
+## Methods to Detect GAN-Generated Images 
 
 Project Report (Google Doc):- https://docs.google.com/document/d/1lbNA2VCtUeTrxGibGD4hsfwPq4agTxhlyJ1wTPBjESU/edit
 
@@ -9,13 +7,30 @@ Presentation (Google Slides):- https://docs.google.com/presentation/d/1krUXYfpzm
 
 Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bqPWqPzG2wsfgmeo6FvT3n39GCYtac/edit?usp=sharing
 
-## Dataset
+## (1) Dataset
 
-[Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)
+[Source of Datasets](https://github.com/PeterWang512/CNNDetection#3-dataset)
 
+[Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)  
 [Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
 
-Directory should like this:-
+
+## (2) Requirements
+
+Python Version - python3/3.8.6 
+
+Libaries required:- 
+1. pytorch/1.7.0 
+2. tensorflow/2.3.1 
+3. transformers/4.5.0
+
+Time to run each notebook:- 30 min to 1 hour per epoch, depending on model complexity.
+
+## (3) Steps on How to install and run: -
+
+  1. Download the datasets from the google link above. The size of the datasets is 88 gb combined and we could not upload it to Github.
+  2. Unzip the two zip files (CNN_synth_testset.zip & progan_train.zip) using Dataset_Unzipping.ipynb notebook. Or using any inbuilt unzipping software. The structure of the directory after unzipping should look like this:-
+
 ```
 .
 |-- CNN_synth_testset
@@ -32,66 +47,20 @@ Directory should like this:-
 |   |-- stylegan
 |   |-- stylegan2
 |   `-- whichfaceisreal
-|-- Co_Net_Main.ipynb
-|-- Dataset_Creation_Path_to_Label.ipynb
-|-- GPU_Check.ipynb
+|-- Co_Net.ipynb
+|-- Dataset_Unzipping.ipynb
 |-- M-Gb
 |   |-- model9.pt
-|   |-- paranoid_save.pt
-|   |-- test_accs.txt
-|   |-- test_loader.pt
-|   |-- train_loader.pt
-|   `-- valid_loader.pt
+|   `-- test_accs.txt
 |-- M-Gb.ipynb
 |-- PatchForensic.ipynb
-|-- PathForensic_nzotalis.ipynb
-|-- SRNet
-|   |-- SRNet.ipynb
-|   |-- SRNet.pt
-|   |-- SRNet.txt
-|   |-- SRNet_line.svg
-|   |-- SRNet_training_vis.txt
-|   `-- SRNet_valid_vis.txt
-|-- Test_Dataset_Labels.csv
-|-- Train_Dataset_Labels.csv
-|-- Unzipping.ipynb
+|-- SRNet.ipynb
 |-- Wang_2020.ipynb
-|-- Wang_2020_Files
-|   |-- co_net_model_trained.pt
-|   `-- wang_2020_model_trained.pt
-|-- Xception
-|   |-- Xception.ipynb
-|   |-- Xception.pt
-|   |-- Xception.txt
-|   |-- Xception_line.svg
-|   |-- Xception_mis.pdf
-|   |-- Xception_training_vis.txt
-|   `-- Xception_valid_vis.txt
-|-- fake.png
-|-- fake_1.png
-|-- fake_2.png
-|-- fake_3.png
-|-- fake_4.png
-|-- fake_5.png
-|-- ourOwnGan
-|-- ourOwnGan-Copy.ipynb
-|-- ourOwnGan-Copy1.ipynb
+|-- Xception.ipynb
 |-- ourOwnGan.ipynb
-|-- ourOwnGan_Copy
-|   |-- test_loader.pt
-|   |-- train_loader.pt
-|   `-- valid_loader.pt
-|-- patchForensic
-|   |-- test_loader.pt
-|   |-- train_loader.pt
-|   `-- valid_loader.pt
 |-- patchForensic_nzotalis
 |   |-- final_save.pt
-|   |-- model0.pt
-|   |-- model1.pt
 |   |-- test_accs.txt
-|   |-- test_loader.pt
-|   |-- train_loader.pt
 |   `-- valid_loader.pt
 |-- progan_train
 |   |-- airplane
@@ -114,56 +83,36 @@ Directory should like this:-
 |   |-- sofa
 |   |-- train
 |   `-- tvmonitor
-|-- real.png
-|-- real_1.png
-|-- real_2.png
-|-- real_3.png
-|-- real_4.png
-|-- real_5.png
 |-- spec
 |   |-- paranoid_save.pt
-|   |-- test_accs.txt
-|   |-- test_loader.pt
-|   |-- train_loader.pt
-|   `-- valid_loader.pt
-|-- spec.ipynb
-|-- test.ipynb
-`-- test.txt
+|   `-- test_accs.txt
+`-- spec.ipynb
 ```
+  3. Run the notebooks. All the notebooks can run without any changes needed.
 
-## Reference Papers
+## (4) References
 
-[Main Reference Paper](https://arxiv.org/pdf/2104.02617.pdf)
+[Main Reference Paper](https://arxiv.org/abs/2104.02617)
 
-Add other papers.
+References Papers for each models:-   
+1. [Xception](https://ieeexplore.ieee.org/document/8397040)  
+2. [Wang2020](https://arxiv.org/abs/1912.11035)  
+3. [Spec](https://arxiv.org/abs/1907.06515)  
+4. [PatchForensic](https://arxiv.org/abs/2008.10588)  
+5. [Co-Net](https://arxiv.org/abs/1903.06836)  
+6. [M-Gb](https://arxiv.org/abs/1902.11153)  
+7. [SRNet](http://www.ws.binghamton.edu/fridrich/research/SRNet.pdf)  
 
-Implemented 4 models:-
+Other references:-  
+[Tutorial for Pytorch Dataloader](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 
-[Xception](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/Xception.ipynb)
-[Wang2020](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/Wang_2020.ipynb)
-[Spec](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/spec.ipynb)
-[PatchForensics](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/PatchForensic.ipynb)
+## (5) Link to Implementations (within Repository):-
 
-Libaries imported to run [Get list from SCC]
-
-Specifications needed:- GPU for all
-
-Time to run each notebook:- A lot.
-
-Steps on How to install and run: -
-  1. Download and unzip dataset from the google link. The size of the dataset is 88 gb combined and we could not upload it to Github. 
-  2. The structure of the directory should be:-
-'''
-project
-  CNN_synth_testset
-    biggan
-    crn
-    cyclegan
-    ...
-  progan_train
-    airplane
-    bicycle
-    bird
-    ...
-  Notebooks
-'''
+1. [Xception](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/Xception.ipynb)  
+2. [Wang2020](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/Wang_2020.ipynb)  
+3. [Spec](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/spec.ipynb)  
+4. [PatchForensic](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/PatchForensic.ipynb)  
+5. [Co-Net](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/Co_Net.ipynb)  
+6. [M-Gb](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/M-Gb.ipynb)  
+7. [SRNet](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/SRNet.ipynb)  
+8. [Our own GAN](https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/ourOwnGan.ipynb)  
