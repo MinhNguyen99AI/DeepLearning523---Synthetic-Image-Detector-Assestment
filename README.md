@@ -9,6 +9,8 @@ Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bq
 
 ## (1) Dataset
 
+Our dataset can be found here:
+
 [Source of Datasets](https://github.com/PeterWang512/CNNDetection#3-dataset)
 
 [Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)  
