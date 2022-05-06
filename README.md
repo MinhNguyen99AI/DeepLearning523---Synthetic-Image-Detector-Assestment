@@ -1,15 +1,25 @@
-# DeepLearning523---Synthetic-Image-Detector-Assestment
+# CS 523: Deep Learning (Spring 22)
+## Methods to Detect GAN-Generated Images
+---Synthetic-Image-Detector-Assestment
 Deep Learning Boston University Final Project - Synthetic GAN images detector re-implementation and assestment. 
 
-Report Google Doc:- https://docs.google.com/document/d/1lbNA2VCtUeTrxGibGD4hsfwPq4agTxhlyJ1wTPBjESU/edit
+Project Report (Google Doc):- https://docs.google.com/document/d/1lbNA2VCtUeTrxGibGD4hsfwPq4agTxhlyJ1wTPBjESU/edit
 
-Presentation:- https://docs.google.com/presentation/d/1krUXYfpzmqlbyrfA53yYeDE4Wx6tsYp40nwFmgY7wd0/edit?usp=sharing
+Presentation (Google Slides):- https://docs.google.com/presentation/d/1krUXYfpzmqlbyrfA53yYeDE4Wx6tsYp40nwFmgY7wd0/edit?usp=sharing
+
+Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bqPWqPzG2wsfgmeo6FvT3n39GCYtac/edit?usp=sharing
+
+## Dataset
 
 [Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)
 
 [Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
 
-[Reference Paper](https://arxiv.org/pdf/2104.02617.pdf)
+## Reference Papers
+
+[Main Reference Paper](https://arxiv.org/pdf/2104.02617.pdf)
+
+Add other papers.
 
 Implemented 4 models:-
 
