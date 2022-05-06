@@ -88,7 +88,7 @@ Time to run each notebook:- 30 min to 1 hour per epoch, depending on model compl
 |   `-- test_accs.txt
 `-- spec.ipynb
 ```
-  3. Run the notebooks. All the notebooks can run without any changes needed.
+  3. Run the notebooks. Each notebook is named as their respective models. All the notebooks can run without any changes needed.
 
 ## (4) References
 
