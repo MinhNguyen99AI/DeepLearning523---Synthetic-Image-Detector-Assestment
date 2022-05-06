@@ -106,7 +106,9 @@ References Papers for each models:-
 7. [SRNet](http://www.ws.binghamton.edu/fridrich/research/SRNet.pdf)  
 
 Other references:-  
-[Tutorial for Pytorch Dataloader](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+1. [Tutorial for Pytorch Dataloader](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+2. [Xception model reference](https://github.com/tstandley/Xception-PyTorch)
+3. [SR-Net model reference](https://github.com/brijeshiitg/Pytorch-implementation-of-SRNet)
 
 ## (5) Link to Implementations (within Repository):-
 
