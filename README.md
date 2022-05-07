@@ -1,11 +1,9 @@
 # CS 523: Deep Learning Project (Spring 22)
 ## Methods to Detect GAN-Generated Images 
 
-Project Report (Google Doc):- https://docs.google.com/document/d/1lbNA2VCtUeTrxGibGD4hsfwPq4agTxhlyJ1wTPBjESU/edit
+Project Report (Github):- https://github.com/MinhNguyen99AI/DeepLearning523---Synthetic-Image-Detector-Assestment/blob/main/523%20Project%20Final%20Report.pdf
 
 Presentation (Google Slides):- https://docs.google.com/presentation/d/1krUXYfpzmqlbyrfA53yYeDE4Wx6tsYp40nwFmgY7wd0/edit?usp=sharing
-
-Update Report (Google Doc):- https://docs.google.com/document/d/1HN4BIBhxD3Ur_bqPWqPzG2wsfgmeo6FvT3n39GCYtac/edit?usp=sharing
 
 ## (1) Dataset
 
@@ -13,8 +11,8 @@ Our dataset can be found here:
 
 [Source of Datasets](https://github.com/PeterWang512/CNNDetection#3-dataset)
 
-[Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)  
-[Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
+- [Training Dataset](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view)  
+- [Testing Dataset](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
 
 
 ## (2) Requirements
